@@ -31,8 +31,8 @@ public class SpringBootRestApiApplication extends SpringBootServletInitializer
 		
 	}
 	
-	
-	  @RequestMapping("/") public String hello() { return
-	  "Hello World From Tomcate"; }
-	 
+	/*
+	 * @RequestMapping("/") public String hello() { return
+	 * "Hello World From Tomcate"; }
+	 */
 }
