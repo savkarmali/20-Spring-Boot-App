@@ -27,10 +27,12 @@ public class SpringBootRestApiApplication extends SpringBootServletInitializer
 		 * int a=5; System.out.println(a++); System.out.println(++a);
 		 * System.out.println(a);
 		 */
+		
+		
 	}
 	
-	/*
-	 * @RequestMapping("/") public String hello() { return
-	 * "Hello World From Tomcate"; }
-	 */
+	
+	  @RequestMapping("/") public String hello() { return
+	  "Hello World From Tomcate"; }
+	 
 }
