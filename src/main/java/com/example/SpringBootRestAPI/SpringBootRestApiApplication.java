@@ -22,6 +22,8 @@ public class SpringBootRestApiApplication extends SpringBootServletInitializer
 	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootRestApiApplication.class, args);
+		
+		//HIS-122
 	
 		/*
 		 * int a=5; System.out.println(a++); System.out.println(++a);
@@ -32,7 +34,14 @@ public class SpringBootRestApiApplication extends SpringBootServletInitializer
 	}
 	
 	
+
 	  @RequestMapping("/") public String hello() { return
 	  "HIS-134"; }
 	 
+
+	/*
+	 * @RequestMapping("/") public String hello() { return
+	 * "Hello World From Tomcate"; }
+	 */
+
 }
