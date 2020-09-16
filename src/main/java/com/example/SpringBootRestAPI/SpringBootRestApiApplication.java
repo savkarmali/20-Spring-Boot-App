@@ -13,32 +13,24 @@ public class SpringBootRestApiApplication extends SpringBootServletInitializer
 {
 
 	  @Override protected SpringApplicationBuilder
-	  configure(SpringApplicationBuilder builder) { // TODO Auto-generated methodstub 
+	  configure(SpringApplicationBuilder builder) {  
 		  return builder.sources(SpringBootRestApiApplication.class); 
 		  
 	  }
 	  
-	 
-	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootRestApiApplication.class, args);
-		
-		//HIS-122
 	
 		/*
 		 * int a=5; System.out.println(a++); System.out.println(++a);
 		 * System.out.println(a);
 		 */
-		
-		
 	}
 	
-	
-
-	  @RequestMapping("/") public String hello() { return
-	  "HIS-134"; }
+	  @RequestMapping("/") public String hello() {
+		 return "HIS-134"; 
+	 }
 	 
-
 	/*
 	 * @RequestMapping("/") public String hello() { return
 	 * "Hello World From Tomcate"; }
