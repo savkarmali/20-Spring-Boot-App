@@ -31,9 +31,9 @@ public class SpringBootRestApiApplication extends SpringBootServletInitializer
 		 return "HIS-134"; 
 	 }
 	 
-	/*
-	 * @RequestMapping("/") public String hello() { return
-	 * "Hello World From Tomcate"; }
-	 */
+	
+	  @RequestMapping("/") public String hello() { return
+	  "Hello World From Tomcate"; }
+	 
 
 }
