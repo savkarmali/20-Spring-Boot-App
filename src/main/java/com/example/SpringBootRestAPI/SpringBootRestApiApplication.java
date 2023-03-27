@@ -31,9 +31,9 @@ public class SpringBootRestApiApplication extends SpringBootServletInitializer
 		 return "HIS-134"; 
 	 }
 	 
-	//feature-543 merge to develop 
-	  @RequestMapping("/") public String hello() { return
-	  "Hello World From Tomcate"; }
+// 	//feature-543 merge to develop 
+// 	  @RequestMapping("/") public String hello() { return
+// 	  "Hello World From Tomcate"; }
 	 
 
 }
