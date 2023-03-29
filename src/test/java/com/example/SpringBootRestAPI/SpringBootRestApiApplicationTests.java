@@ -34,8 +34,8 @@ public class SpringBootRestApiApplicationTests {
 	}
 	
 // 	@Test
-// 	void contextLoads() {
-// 	}
+ 	void contextLoads() {
+ 	}
 
 	@Test
 	public void testGetAllUsers() {
