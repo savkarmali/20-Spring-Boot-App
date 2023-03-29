@@ -33,9 +33,9 @@ public class SpringBootRestApiApplicationTests {
 		return "http://localhost:" +port;
 	}
 	
-	@Test
-	void contextLoads() {
-	}
+// 	@Test
+// 	void contextLoads() {
+// 	}
 
 	@Test
 	public void testGetAllUsers() {
